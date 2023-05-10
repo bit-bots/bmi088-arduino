@@ -64,7 +64,7 @@ class Bmi088Accel {
     };
     enum PinMode {
       PUSH_PULL,
-      OPEN_DRAIN
+      OPEN_DRAIN_BMI088
     };
     enum PinLevel {
       ACTIVE_HIGH,
@@ -225,7 +225,7 @@ class Bmi088Gyro {
     };
     enum PinMode {
       PUSH_PULL,
-      OPEN_DRAIN
+      OPEN_DRAIN_BMI088
     };
     enum PinLevel {
       ACTIVE_HIGH,
@@ -360,7 +360,7 @@ class Bmi088 {
     };
     enum PinMode {
       PUSH_PULL,
-      OPEN_DRAIN
+      OPEN_DRAIN_BMI088
     };
     enum PinLevel {
       ACTIVE_HIGH,

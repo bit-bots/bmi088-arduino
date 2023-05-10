@@ -942,7 +942,7 @@ bool Bmi088Accel::pinModeInt1(PinIO io, PinMode mode, PinLevel level)
       pin_mode = ACC_INT_PUSHPULL;
       break;
     }
-    case OPEN_DRAIN: {
+    case OPEN_DRAIN_BMI088: {
       pin_mode = ACC_INT_OPENDRAIN;
       break;
     }
@@ -997,7 +997,7 @@ bool Bmi088Accel::pinModeInt2(PinIO io, PinMode mode, PinLevel level)
       pin_mode = ACC_INT_PUSHPULL;
       break;
     }
-    case OPEN_DRAIN: {
+    case OPEN_DRAIN_BMI088: {
       pin_mode = ACC_INT_OPENDRAIN;
       break;
     }
@@ -1313,7 +1313,7 @@ bool Bmi088Gyro::pinModeInt3(PinMode mode, PinLevel level)
       pin_mode = GYRO_INT_PUSHPULL;
       break;
     }
-    case OPEN_DRAIN: {
+    case OPEN_DRAIN_BMI088: {
       pin_mode = GYRO_INT_OPENDRAIN;
       break;
     }
@@ -1354,7 +1354,7 @@ bool Bmi088Gyro::pinModeInt4(PinMode mode, PinLevel level)
       pin_mode = GYRO_INT_PUSHPULL;
       break;
     }
-    case OPEN_DRAIN: {
+    case OPEN_DRAIN_BMI088: {
       pin_mode = GYRO_INT_OPENDRAIN;
       break;
     }
